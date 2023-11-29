@@ -1,0 +1,18 @@
+fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
+x= fruits.count('apple')
+y= fruits.count('strawberry')
+z= fruits.index('banana')
+f= fruits.index('banana', 4)
+fruits.reverse()
+print(fruits)
+fruits.append('grape')
+print(fruits)
+fruits.sort()
+print(fruits)
+fruits.pop()
+print(fruits)
+print (x)
+print (y)
+print (z)
+print (f)
+
